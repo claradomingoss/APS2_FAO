@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1d5d9ea71baf647e6232da5d65175580 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1d5d9ea71baf647e6232da5d65175580" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1d5d9ea71baf647e6232da5d65175580 = L.map(
+                "map_1d5d9ea71baf647e6232da5d65175580",
+                {
+                    center: [-5.3, -39.3],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0f9ccd6508a4a3bb6b9fd6e0a1b1f62d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_0f9ccd6508a4a3bb6b9fd6e0a1b1f62d.addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+            var circle_marker_c8ac7871882f983fab839b60de617370 = L.circleMarker(
+                [-3.71664, -38.5423],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_edd6f38c2ea2a082bb55bf4c243dda32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ff4551de6391c35679e3c6690a14593 = $(`<div id="html_4ff4551de6391c35679e3c6690a14593" style="width: 100.0%; height: 100.0%;">Fortaleza</div>`)[0];
+                popup_edd6f38c2ea2a082bb55bf4c243dda32.setContent(html_4ff4551de6391c35679e3c6690a14593);
+            
+        
+
+        circle_marker_c8ac7871882f983fab839b60de617370.bindPopup(popup_edd6f38c2ea2a082bb55bf4c243dda32)
+        ;
+
+        
+    
+    
+            circle_marker_c8ac7871882f983fab839b60de617370.bindTooltip(
+                `<div>
+                     Fortaleza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6942cb4830535cd4e8c358979ffc7889 = L.circleMarker(
+                [-3.72797, -38.6619],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_316e6eddb8bc3edc1f06fa2b87adfcb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8df9cc980952b020147e7dcf09a1ec69 = $(`<div id="html_8df9cc980952b020147e7dcf09a1ec69" style="width: 100.0%; height: 100.0%;">Caucaia</div>`)[0];
+                popup_316e6eddb8bc3edc1f06fa2b87adfcb4.setContent(html_8df9cc980952b020147e7dcf09a1ec69);
+            
+        
+
+        circle_marker_6942cb4830535cd4e8c358979ffc7889.bindPopup(popup_316e6eddb8bc3edc1f06fa2b87adfcb4)
+        ;
+
+        
+    
+    
+            circle_marker_6942cb4830535cd4e8c358979ffc7889.bindTooltip(
+                `<div>
+                     Caucaia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_47b9f3fd4dc6e588613e2ce355556bd8 = L.circleMarker(
+                [-3.68913, -40.3482],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_1a4120816efec71349c668f5389298ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_595edd9dde6791edb05c844042a998c7 = $(`<div id="html_595edd9dde6791edb05c844042a998c7" style="width: 100.0%; height: 100.0%;">Sobral</div>`)[0];
+                popup_1a4120816efec71349c668f5389298ba.setContent(html_595edd9dde6791edb05c844042a998c7);
+            
+        
+
+        circle_marker_47b9f3fd4dc6e588613e2ce355556bd8.bindPopup(popup_1a4120816efec71349c668f5389298ba)
+        ;
+
+        
+    
+    
+            circle_marker_47b9f3fd4dc6e588613e2ce355556bd8.bindTooltip(
+                `<div>
+                     Sobral
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2290876448090f6d7beb6ada82e2d7a7 = L.circleMarker(
+                [-3.86699, -38.6259],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_707f51894d44a26e4311ead76136de93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_253190fa6b59bf3d81af89efdc4464c5 = $(`<div id="html_253190fa6b59bf3d81af89efdc4464c5" style="width: 100.0%; height: 100.0%;">Maracanaú</div>`)[0];
+                popup_707f51894d44a26e4311ead76136de93.setContent(html_253190fa6b59bf3d81af89efdc4464c5);
+            
+        
+
+        circle_marker_2290876448090f6d7beb6ada82e2d7a7.bindPopup(popup_707f51894d44a26e4311ead76136de93)
+        ;
+
+        
+    
+    
+            circle_marker_2290876448090f6d7beb6ada82e2d7a7.bindTooltip(
+                `<div>
+                     Maracanaú
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9f2b75be5d8bb703627fd06a86670228 = L.circleMarker(
+                [-7.2153, -39.4103],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_0d9ac943f2f309da6d2a5e06ec4b5160 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49a05ed39822ade01a97ad67fd6943ce = $(`<div id="html_49a05ed39822ade01a97ad67fd6943ce" style="width: 100.0%; height: 100.0%;">Crato</div>`)[0];
+                popup_0d9ac943f2f309da6d2a5e06ec4b5160.setContent(html_49a05ed39822ade01a97ad67fd6943ce);
+            
+        
+
+        circle_marker_9f2b75be5d8bb703627fd06a86670228.bindPopup(popup_0d9ac943f2f309da6d2a5e06ec4b5160)
+        ;
+
+        
+    
+    
+            circle_marker_9f2b75be5d8bb703627fd06a86670228.bindTooltip(
+                `<div>
+                     Crato
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dddbc73b33a1b754e4ca209c29b371b7 = L.circleMarker(
+                [-7.19621, -39.3076],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_f18508f56f55fc6bd7892426f8bea475 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f091a5454da4ae5424c1cde47eb8cd1d = $(`<div id="html_f091a5454da4ae5424c1cde47eb8cd1d" style="width: 100.0%; height: 100.0%;">Juazeiro do Norte</div>`)[0];
+                popup_f18508f56f55fc6bd7892426f8bea475.setContent(html_f091a5454da4ae5424c1cde47eb8cd1d);
+            
+        
+
+        circle_marker_dddbc73b33a1b754e4ca209c29b371b7.bindPopup(popup_f18508f56f55fc6bd7892426f8bea475)
+        ;
+
+        
+    
+    
+            circle_marker_dddbc73b33a1b754e4ca209c29b371b7.bindTooltip(
+                `<div>
+                     Juazeiro do Norte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e9b2af740bf168e5986ab259535a03e5 = L.circleMarker(
+                [-6.36281, -39.2892],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_bc98821a22e8d345bc5d5b1c494578a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_808dbae59e7e3a57e75a3b974e7611f0 = $(`<div id="html_808dbae59e7e3a57e75a3b974e7611f0" style="width: 100.0%; height: 100.0%;">Iguatu</div>`)[0];
+                popup_bc98821a22e8d345bc5d5b1c494578a4.setContent(html_808dbae59e7e3a57e75a3b974e7611f0);
+            
+        
+
+        circle_marker_e9b2af740bf168e5986ab259535a03e5.bindPopup(popup_bc98821a22e8d345bc5d5b1c494578a4)
+        ;
+
+        
+    
+    
+            circle_marker_e9b2af740bf168e5986ab259535a03e5.bindTooltip(
+                `<div>
+                     Iguatu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a2018a4ef646bc8865d8e99ad6b7d91e = L.circleMarker(
+                [-3.89143, -38.6829],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_1868b081c1b531e48810503319ef8448 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_098ac6bd4262cc252232ca6f0dc466c0 = $(`<div id="html_098ac6bd4262cc252232ca6f0dc466c0" style="width: 100.0%; height: 100.0%;">Maranguape</div>`)[0];
+                popup_1868b081c1b531e48810503319ef8448.setContent(html_098ac6bd4262cc252232ca6f0dc466c0);
+            
+        
+
+        circle_marker_a2018a4ef646bc8865d8e99ad6b7d91e.bindPopup(popup_1868b081c1b531e48810503319ef8448)
+        ;
+
+        
+    
+    
+            circle_marker_a2018a4ef646bc8865d8e99ad6b7d91e.bindTooltip(
+                `<div>
+                     Maranguape
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00934bdc4ad9608b2845585254c417a7 = L.circleMarker(
+                [-5.14392, -38.0847],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_269396b1242c5b110d41491fd9cd7fbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfd820c0b2a547794ed26189ad3199ce = $(`<div id="html_dfd820c0b2a547794ed26189ad3199ce" style="width: 100.0%; height: 100.0%;">Limoeiro do Norte</div>`)[0];
+                popup_269396b1242c5b110d41491fd9cd7fbc.setContent(html_dfd820c0b2a547794ed26189ad3199ce);
+            
+        
+
+        circle_marker_00934bdc4ad9608b2845585254c417a7.bindPopup(popup_269396b1242c5b110d41491fd9cd7fbc)
+        ;
+
+        
+    
+    
+            circle_marker_00934bdc4ad9608b2845585254c417a7.bindTooltip(
+                `<div>
+                     Limoeiro do Norte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0bdb06fcafaa74561978111b543d557 = L.circleMarker(
+                [-3.9784, -38.6183],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_643b953965dfdc8760b0218de24b53d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38a1e471a5105a9b61ad6c1ed234633f = $(`<div id="html_38a1e471a5105a9b61ad6c1ed234633f" style="width: 100.0%; height: 100.0%;">Pacatuba</div>`)[0];
+                popup_643b953965dfdc8760b0218de24b53d7.setContent(html_38a1e471a5105a9b61ad6c1ed234633f);
+            
+        
+
+        circle_marker_e0bdb06fcafaa74561978111b543d557.bindPopup(popup_643b953965dfdc8760b0218de24b53d7)
+        ;
+
+        
+    
+    
+            circle_marker_e0bdb06fcafaa74561978111b543d557.bindTooltip(
+                `<div>
+                     Pacatuba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd772f295b803526ec58bfe42b7fb27c = L.circleMarker(
+                [-4.1209, -38.4707],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_1d1ebf5b0f4896c3b4861cefba35e0e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e389ae3c7be49887c8f0d589b1c4e4c = $(`<div id="html_0e389ae3c7be49887c8f0d589b1c4e4c" style="width: 100.0%; height: 100.0%;">Horizonte</div>`)[0];
+                popup_1d1ebf5b0f4896c3b4861cefba35e0e8.setContent(html_0e389ae3c7be49887c8f0d589b1c4e4c);
+            
+        
+
+        circle_marker_fd772f295b803526ec58bfe42b7fb27c.bindPopup(popup_1d1ebf5b0f4896c3b4861cefba35e0e8)
+        ;
+
+        
+    
+    
+            circle_marker_fd772f295b803526ec58bfe42b7fb27c.bindTooltip(
+                `<div>
+                     Horizonte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d8a5e6326247c47b48b28749c658e99 = L.circleMarker(
+                [-3.49933, -39.5836],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_6a6158840c1e85a3147f9909750d87a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8073767d1c843d0d0221d0a821da3d08 = $(`<div id="html_8073767d1c843d0d0221d0a821da3d08" style="width: 100.0%; height: 100.0%;">Itapipoca</div>`)[0];
+                popup_6a6158840c1e85a3147f9909750d87a5.setContent(html_8073767d1c843d0d0221d0a821da3d08);
+            
+        
+
+        circle_marker_6d8a5e6326247c47b48b28749c658e99.bindPopup(popup_6a6158840c1e85a3147f9909750d87a5)
+        ;
+
+        
+    
+    
+            circle_marker_6d8a5e6326247c47b48b28749c658e99.bindTooltip(
+                `<div>
+                     Itapipoca
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e3cbe047931d15e17232543a2ce0ee0d = L.circleMarker(
+                [-7.2982, -39.3021],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_2f12bb9752383f602d5db0400b17e162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdaa920482591e2c55041b4672546fbb = $(`<div id="html_fdaa920482591e2c55041b4672546fbb" style="width: 100.0%; height: 100.0%;">Barbalha</div>`)[0];
+                popup_2f12bb9752383f602d5db0400b17e162.setContent(html_fdaa920482591e2c55041b4672546fbb);
+            
+        
+
+        circle_marker_e3cbe047931d15e17232543a2ce0ee0d.bindPopup(popup_2f12bb9752383f602d5db0400b17e162)
+        ;
+
+        
+    
+    
+            circle_marker_e3cbe047931d15e17232543a2ce0ee0d.bindTooltip(
+                `<div>
+                     Barbalha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3b0b75bc660f4799d3eccd61d07a7dae = L.circleMarker(
+                [-3.60515, -38.9726],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_cd8afcb2a8a28009a3b05e2de84b3a21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_629b878d34e028e34ddad16f627d1cb4 = $(`<div id="html_629b878d34e028e34ddad16f627d1cb4" style="width: 100.0%; height: 100.0%;">São Gonçalo do Amarante</div>`)[0];
+                popup_cd8afcb2a8a28009a3b05e2de84b3a21.setContent(html_629b878d34e028e34ddad16f627d1cb4);
+            
+        
+
+        circle_marker_3b0b75bc660f4799d3eccd61d07a7dae.bindPopup(popup_cd8afcb2a8a28009a3b05e2de84b3a21)
+        ;
+
+        
+    
+    
+            circle_marker_3b0b75bc660f4799d3eccd61d07a7dae.bindTooltip(
+                `<div>
+                     São Gonçalo do Amarante
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5fdd859aac13425d8f43f91eb4c1dac4 = L.circleMarker(
+                [-2.9005, -40.8544],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_d59f2ec18263ed259dda19d6334143a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_025b87f1b9b66abcf83ed5d5009cc348 = $(`<div id="html_025b87f1b9b66abcf83ed5d5009cc348" style="width: 100.0%; height: 100.0%;">Camocim</div>`)[0];
+                popup_d59f2ec18263ed259dda19d6334143a9.setContent(html_025b87f1b9b66abcf83ed5d5009cc348);
+            
+        
+
+        circle_marker_5fdd859aac13425d8f43f91eb4c1dac4.bindPopup(popup_d59f2ec18263ed259dda19d6334143a9)
+        ;
+
+        
+    
+    
+            circle_marker_5fdd859aac13425d8f43f91eb4c1dac4.bindTooltip(
+                `<div>
+                     Camocim
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6dda933c7ce680373b9f25e36cf776f3 = L.circleMarker(
+                [-4.12967, -38.2412],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_082ecff6a644b7aa236a5df6fed67f2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_977f85adfa06fcb64d5a4bfa4e10f7ae = $(`<div id="html_977f85adfa06fcb64d5a4bfa4e10f7ae" style="width: 100.0%; height: 100.0%;">Cascavel</div>`)[0];
+                popup_082ecff6a644b7aa236a5df6fed67f2a.setContent(html_977f85adfa06fcb64d5a4bfa4e10f7ae);
+            
+        
+
+        circle_marker_6dda933c7ce680373b9f25e36cf776f3.bindPopup(popup_082ecff6a644b7aa236a5df6fed67f2a)
+        ;
+
+        
+    
+    
+            circle_marker_6dda933c7ce680373b9f25e36cf776f3.bindTooltip(
+                `<div>
+                     Cascavel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_162411598bfc8d02bbac7639f116e254 = L.circleMarker(
+                [-4.01584, -38.3061],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_da4f333f29108ef21ea07b82f0f10d06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bff08610c13c3fe85a7ddd7aa33eb10a = $(`<div id="html_bff08610c13c3fe85a7ddd7aa33eb10a" style="width: 100.0%; height: 100.0%;">Pindoretama</div>`)[0];
+                popup_da4f333f29108ef21ea07b82f0f10d06.setContent(html_bff08610c13c3fe85a7ddd7aa33eb10a);
+            
+        
+
+        circle_marker_162411598bfc8d02bbac7639f116e254.bindPopup(popup_da4f333f29108ef21ea07b82f0f10d06)
+        ;
+
+        
+    
+    
+            circle_marker_162411598bfc8d02bbac7639f116e254.bindTooltip(
+                `<div>
+                     Pindoretama
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a589d4111b84257905273395bd26661a = L.circleMarker(
+                [-4.92673, -37.9721],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_24a59c34ad039f90681d5f71a0e7c6b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bef57f4d7f673427ee449de039d2779f = $(`<div id="html_bef57f4d7f673427ee449de039d2779f" style="width: 100.0%; height: 100.0%;">Russas</div>`)[0];
+                popup_24a59c34ad039f90681d5f71a0e7c6b8.setContent(html_bef57f4d7f673427ee449de039d2779f);
+            
+        
+
+        circle_marker_a589d4111b84257905273395bd26661a.bindPopup(popup_24a59c34ad039f90681d5f71a0e7c6b8)
+        ;
+
+        
+    
+    
+            circle_marker_a589d4111b84257905273395bd26661a.bindTooltip(
+                `<div>
+                     Russas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3f8a7054436fff2873b95aaf50136f29 = L.circleMarker(
+                [-4.55826, -37.7679],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_d999447c63a69ad4547624310cd6c428 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0e41a4e7a48c4270ee41d9352339f4a = $(`<div id="html_a0e41a4e7a48c4270ee41d9352339f4a" style="width: 100.0%; height: 100.0%;">Aracati</div>`)[0];
+                popup_d999447c63a69ad4547624310cd6c428.setContent(html_a0e41a4e7a48c4270ee41d9352339f4a);
+            
+        
+
+        circle_marker_3f8a7054436fff2873b95aaf50136f29.bindPopup(popup_d999447c63a69ad4547624310cd6c428)
+        ;
+
+        
+    
+    
+            circle_marker_3f8a7054436fff2873b95aaf50136f29.bindTooltip(
+                `<div>
+                     Aracati
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a3e0a6dc43fb68db0183441f9accf34e = L.circleMarker(
+                [-4.67146, -37.833],
+                {"bubblingMouseEvents": true, "color": "#3186cc", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+        var popup_33ec64e4685573224ddb413ea24a57c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_893c1e31177be54210bdd06fd910e50d = $(`<div id="html_893c1e31177be54210bdd06fd910e50d" style="width: 100.0%; height: 100.0%;">Itaiçaba</div>`)[0];
+                popup_33ec64e4685573224ddb413ea24a57c5.setContent(html_893c1e31177be54210bdd06fd910e50d);
+            
+        
+
+        circle_marker_a3e0a6dc43fb68db0183441f9accf34e.bindPopup(popup_33ec64e4685573224ddb413ea24a57c5)
+        ;
+
+        
+    
+    
+            circle_marker_a3e0a6dc43fb68db0183441f9accf34e.bindTooltip(
+                `<div>
+                     Itaiçaba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f83858452d0dc21551262e0e86934ec7 = L.polyline(
+                [[-4.01584, -38.3061], [-4.12967, -38.2412], [-4.55826, -37.7679], [-4.67146, -37.833], [-4.92673, -37.9721], [-5.14392, -38.0847], [-7.2153, -39.4103], [-7.2982, -39.3021], [-7.19621, -39.3076], [-6.36281, -39.2892], [-3.68913, -40.3482], [-2.9005, -40.8544], [-3.49933, -39.5836], [-3.60515, -38.9726], [-3.72797, -38.6619], [-3.71664, -38.5423], [-3.86699, -38.6259], [-3.89143, -38.6829], [-3.9784, -38.6183], [-4.1209, -38.4707], [-4.01584, -38.3061]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1d5d9ea71baf647e6232da5d65175580);
+        
+    
+            poly_line_f83858452d0dc21551262e0e86934ec7.bindTooltip(
+                `<div>
+                     Rota Refinada Or-opt
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
